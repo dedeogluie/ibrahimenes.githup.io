@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+}
+
+/* %(yüzde) hangi erkanda açarsan aç tablet,telefon, vb o ekran boyutuna göre boyut alır. px ise  hangi ekranda açarsan aç veridğin boyutta kalır */
+.containers{
+    width: 69%;
+}
+.exxen-spor{
+    font-size: 1.2rem;
+    background-color: black;
+    border: none;
+    padding: 10px 30px;
+
+}
+
+.uye-giris{
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+.dropdown{
+    font-size: 1.2rem;
+}
+
+/* üye ol kısmı*/
+
+.uye-ol{
+    background-color: rgb(22, 22, 22);
+}
+.kayit{
+    padding: 30px 0;
+}
+
+.kayit input{
+    width: 90%;
+    padding: 10px 20px;
+}
+/* tıkladığımızda focuslama yapıp renk atıyoruz*/
+.kayit input:focus{
+    outline: 2px solid yellow;
+}
+.kayit button{
+    width: 90%;
+    padding: 10px 20px;
+}
+
+/* cardlar*/
+
+.card{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*ekran ve iconlar*/
+
+.ekranlar{
+    width: 90%;
+    margin: auto;
+}
+
+.resimler{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.resimler img{
+    width: 163px;
+    height: 43px;
+    margin: 5px;
+}
+
+/*BUTONLAR*/
+
+.fa-brands{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 30px;
+    padding: 5px;
+
+}
+
+.son{
+    background-color: rgb(22, 22, 22);
+    padding: 10px;
+}
+
+/*whatsapp iconu*/
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp img{
+    max-width: 50px;
+    height: 50px;
+}
