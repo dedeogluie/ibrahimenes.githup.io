@@ -108,6 +108,7 @@ header .user img{
 }
 
 header .user img:hover{
+    
     transform: scale(1.5) rotate(360deg);
 }
 
@@ -158,13 +159,10 @@ header .social-medya a{
     color: var(--yellow);
 }
 
-header .social-medya a i{
-    transition: 0.2s all;
-}
 
 header .social-medya a:hover {
-    
-    color: #4267b2;;
+    transition: 0.7s all;
+    color: #4267b2;
     transform: scale(2) rotate(360deg);
 }
 
@@ -237,9 +235,25 @@ header .social-medya a:hover {
     padding:0 .5rem;
 }
 
+.about .row .info .btn{
+    background: #333;
+    width: 30rem;
+    height: 7rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.about .row .info .btn i{
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+
+
 
 .about .row .counter {
-    flex:1 1 48rem;
+    flex:1 1 50rem;
     display: flex;
     align-items: center;
     justify-content: center;
